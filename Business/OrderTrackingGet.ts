@@ -66,7 +66,7 @@ const buildRequest = () => {
   return `https://api-sg.aliexpress.com/sync?${query}`;
 };
 
-// 执行流程（保持原样）
+// 执行流程
 (async () => {
   try {
     const url = buildRequest();
