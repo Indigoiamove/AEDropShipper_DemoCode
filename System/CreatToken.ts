@@ -87,5 +87,5 @@ fetchAuthResponse(appKey, code, signMethod, appSecret)
         console.log('API返回的请求体:',JSON.stringify (responseData));
     })
     .catch((error) => {
-        console.error('错误:', error.message);  // 保持原有错误输出
+        console.error('错误:', error.message);  
     });
